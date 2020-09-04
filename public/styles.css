@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+  }
+  
+  body {
+    font-family: Poppins-Bold;
+    color: white;
+    font-weight: 300;
+    background: #50a3a2;
+    width: 100%;
+    height: 100%;
+    background-image: url(./cricket.png);
+
+  }
+  
+  .container {
+    margin: 0% 0%;
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .container h1 {
+    font-size: 40px;
+    font-weight: 200;
+  }
+  
+  input {
+    border: 1px solid rgba(252, 252, 252, 0.4);
+    background-color: rgba(124, 18, 18, 0.2);
+    width: 250px;
+    border-radius: 3px;
+    font-family: Poppins-Bold;
+    padding: 10px 15px;
+    margin: 0 auto 10px auto;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    font-weight: 300;
+  }
+  
+  button {
+    appearance: none;
+    outline: 0;
+    background-color: white;
+    border: 0;
+    padding: 10px 15px;
+    color: #f5fafa;
+    border-radius: 3px;
+    width: 250px;
+    font-size: 18px;
+  }
+  table {
+    margin-top: 50px;
+    margin-left: 100px;
+    border-spacing: 5px;
+  }
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 15px;
+  }
+
+  thead {color: black;}
+tbody {color:blue;}
+tfoot {color:red;}
+
+.createseries{
+  width: 100%;  
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: rgba(219,21,99,0.8);
+  background: -webkit-linear-gradient(45deg, rgba(213,0,125,0.8), rgba(229,57,53,0.8));
+  background: -o-linear-gradient(45deg, rgba(213,0,125,0.8), rgba(229,57,53,0.8));
+  background: -moz-linear-gradient(45deg, rgba(213,0,125,0.8), rgba(229,57,53,0.8));
+  background: linear-gradient(45deg, rgba(213,0,125,0.8), rgba(229,57,53,0.8));
+}
+.contact2-form-title {
+  display: block;
+  font-family: Poppins-Bold;
+  font-size: 39px;
+  color: white;
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.createseriesinput {
+  display: block;
+  width: 100%;
+  font-size: 15px;
+  color:white;
+  line-height: 1.2;
+}
+::placeholder{
+  color: white;
+}
+::-webkit-datetime-edit-year-field{
+  color: white;
+}
+.wrap-series {
+  width: 790px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 72px 55px 90px 55px;
+}
+.bg-wrap-series {
+  width: 100%;  
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: rgba(219,21,99,0.8);
+  background: -webkit-linear-gradient(45deg, rgba(213,0,125,0.8), rgba(229,57,53,0.8));
+  background: -o-linear-gradient(45deg, rgba(213,0,125,0.8), rgba(229,57,53,0.8));
+  background: -moz-linear-gradient(45deg, rgba(213,0,125,0.8), rgba(229,57,53,0.8));
+  background: linear-gradient(45deg, rgba(213,0,125,0.8), rgba(229,57,53,0.8));
+}
+.btn {
+  display: block;
+  position: static;
+  z-index: 1;
+  border-radius: 2px;
+  width: auto;
+  overflow: hidden;
+  margin: 0 auto;
+  background: rgba(191, 62, 196, 0.8);
+  color: white;
+  font-family: Poppins-Bold;
+  float: left;
+  margin-left: 200px;
+}
+.delbtn {
+  display: block;
+  position: static;
+  z-index: 1;
+  border-radius: 2px;
+  width: auto;
+  overflow: hidden;
+  margin: 0 auto;
+  background: rgba(191, 62, 196, 0.8);
+  color: white;
+  font-family: Poppins-Bold;
+  float: right;
+  margin-right: 200px;
+}
+.masterpannelbtn {
+  display: block;
+  position: static;
+  z-index: 1;
+  border-radius: 2px;
+  width: auto;
+  overflow: hidden;
+  margin: 0 auto;
+  background: rgba(191, 62, 196, 0.8);
+  color: white;
+  font-family: Poppins-Bold;
+  float: left;
+  margin-left: 400px;
+  margin-top: 200px;
+}
+.matchmasterpannelbtn {
+  display: block;
+  position: static;
+  z-index: 1;
+  border-radius: 2px;
+  width: auto;
+  overflow: hidden;
+  margin: 0 auto;
+  background: rgba(191, 62, 196, 0.8);
+  color: white;
+  font-family: Poppins-Bold;
+  float: left;
+  margin-left: 120px;
+  margin-top: 200px;
+}
+.selectOption{
+  margin-left: 20px;
+  font-family: Poppins-Bold;
+}
